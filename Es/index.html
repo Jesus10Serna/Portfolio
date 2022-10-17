@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0db39237df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <span class="en">Español</span>
+    <input type="checkbox" class="check"></input>
+    <span class="es">Ingles</span>
+
+    <header>
+        <div class="user">
+            <img src="./img/yo-bien.PNG" alt="">
+            <h3 class="name">Jesus Serna</h3>
+            <p class="post">Desarrollador full stack</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Principal</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#education">Educacion</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home">
+        <h3>Hi there</h3>
+        <h1>Soy <span>Jesus serna</span></h1>
+        <p>Bienvenido,Me gusta aprender nuevas habilidades y mejorar las que he adquirido</p>
+        <a href="#about"><button class="btn">Acerca de mi <i class="fas fa-user"></i></button></a>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>Acerca</span> de mi</h1>
+        <div class="row">
+            <div class="info">
+                <h3> <span>Nombre :</span> Jesus serna</h3>
+                <h3> <span>Edad :</span> 22</h3>
+                <h3> <span>post :</span> Desarrollador full stack</h3>
+                <h3> <span>Idiomas : </span> Español, Ingles</h3>
+                <a href="/CV/Jesus David Serna Freiles..pdf"><button class="btn">Obtener hoja de vida<i class="fas fa-download"></i> </button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>Proceso</span>
+                    <h3>Estudiando desarrollo de software</h3>
+                </div>
+                <div class="box">
+                    <span>3</span>
+                    <h3>Proyectos completados</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="heading">Mi <span>Educacion</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-user-graduate"></i>
+                <span>2021</span>
+                <h3>Ingeniera informatica</h3>
+                <p>Actualmente en cuarto semestre</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-user-graduate"></i>
+                <span>2021</span>
+                <h3>Desarrollo web certificado con</h3>
+                <p>JavaScript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>ReactJS</p>
+                <p>NodeJs</p>
+                <p>Python</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"> Mi<span>Portafolio</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://resplendent-pegasus-27cb34.netlify.app/"><img src="./img/Pokedex.PNG" alt=""></a>
+            </div>
+            <div class="box">
+                <a href="https://musing-northcutt-35187e.netlify.app/"><img src="./img/RickMorty app.PNG" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contacta</span>me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">Informacion de Contacto</h3>
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i>sernajesusdev02@gmail.com</h3>
+                    <h3> <i class="fas fa-phone"></i>+57 302 2783891</h3>
+                    <h3> <i class="fas fa-map-marker"></i>Medellin, Colombia </h3>
+                </div>
+            </div>
+            <!-- <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message">
+                </textarea>
+                <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+            </form> -->
+        </div>
+    </section>
+
+    <a href="#home" class="top">
+        <i class="fas fa-rocket"></i>
+    </a>
+
+    
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
